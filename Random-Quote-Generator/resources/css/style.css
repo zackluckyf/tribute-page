@@ -1,0 +1,130 @@
+/* --------------------------- */
+/* GETTING STARTED */
+/* --------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+html{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+/* --------------------------- */
+/* HEADINGS */
+/* --------------------------- */
+
+h2{
+    font-size: 175%;
+}
+
+h4{
+    font-size: 100%;
+}
+
+/* --------------------------- */
+/* QUOTE BOX */
+/* --------------------------- */
+
+
+.quote-box {
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quote {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: blueviolet;
+}
+
+.author {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 35px;
+    color: blueviolet;
+}
+
+.quotes-icon {
+    padding-right: 10px;
+}
+
+.buttons {
+    padding: 40px;
+}
+
+button:focus {outline:0;}
+
+#twitter-button:hover{
+    cursor:pointer;
+}
+
+#twitter-button{
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    border-style: none;
+    text-decoration: none;
+}
+
+.twtter-button-icon {
+    color: white;
+    font-size: 16px;
+}
+
+#new-quote:hover{
+    cursor:pointer;
+}
+
+#new-quote{
+    float: right;
+    background-color: blueviolet;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.created-by{
+    width: 550px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.created-by h4{
+    color: white;
+}
+
+.text {
+    
+}
