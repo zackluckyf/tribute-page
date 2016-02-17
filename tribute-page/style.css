@@ -1,0 +1,65 @@
+/* --------------------------- */
+/* GETTING STARTED */
+/* --------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* --------------------------- */
+/* Elements */
+/* --------------------------- */
+
+body{
+    background-color: #3964b5;
+    text-align: center;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 300%;
+}
+
+h3{
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.background {
+    width: 700px;
+    background-color: #cbcbcb;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+h4{
+    font-size: 125%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+a:link {
+    text-decoration: none;
+}
+
+.bottom{
+    height: 50px;
+}
